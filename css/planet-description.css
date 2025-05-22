@@ -1,0 +1,176 @@
+/* Mobile-first styles */
+.planet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dyk-info-content {
+    border: 2px solid red;
+    width: 14rem;
+    margin-top: 2rem;
+}
+
+.dyk-info-header {
+    margin-top: 0.75rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.dyk-info {
+    text-align: center;
+    margin: 1rem;
+}
+
+.planet-name {
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.planet-img {
+    width: 14rem;
+    margin: 2rem 0 0 0.15rem;
+    display: flex;
+    align-items: center;
+}
+
+.planet-info-container{
+    margin-right: 0rem;
+}
+
+.numbering {
+    margin-right: 0.5rem;
+    font-size: 3em;
+}
+.planet-info-1,
+.planet-info-2,
+.planet-info-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet-info-text {
+    font-size: 1em;
+    text-align: center;
+    width: 275px;
+}
+
+.planet-info-container .planet-info-text-more {
+    display: none;
+}
+
+.see-more-btn {
+    position: absolute;
+    font-weight: bold;
+    margin-top: 0.15rem;
+    margin-left: 0.25rem;
+    color: rgb(69, 131, 255);
+    cursor: pointer;
+    font-size: 0.85em;
+}
+
+@media (min-width: 375px) {
+
+    /* Mobile-first styles */
+
+    .dyk-info-content {
+        width: 15rem;
+    }
+
+    .dyk-info-header {
+        font-size: 1.75rem;
+    }
+
+    .planet-name {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .planet-img {
+        width: 15rem;
+        margin-top: 1rem;
+    }
+
+    .planet-info-text {
+        width: 310px;
+    }
+}
+
+@media (min-width: 425px) {
+    .planet-info-text {
+        width: 380px;
+    }
+}
+
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+    .planet {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .dyk-info-content {
+        width: 15rem;
+        margin: 3rem 0 0 5rem;
+    }
+
+    .planet-img {
+        width: 18rem;
+        margin: 2rem 0 0 5rem;
+    }
+
+    .planet-name {
+        position: absolute;
+        transform: rotate(-90deg);
+        transform-origin: left bottom;
+        width: 12rem;
+        font-size: 2rem;
+        margin: 14rem 0 0 5rem;
+    }
+
+    .planet-info-container{
+        margin-right: 2rem;
+    }
+
+    .planet-info-text {
+        font-size: 1em;
+        text-align: center;
+        width: 335px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .planet {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .dyk-info-content {
+        width: 18rem;
+        margin: 3rem 0 0 5rem;
+    }
+
+    .planet-img {
+        width: 20rem;
+        margin: 2rem 0 0 5rem;
+    }
+
+    .planet-name {
+        width: 12rem;
+        margin: 15rem 0 0 5rem;
+    }
+
+    .planet-info-container{
+        margin-right: 2rem;
+    }
+
+    .planet-info-text {
+        font-size: 1.15em;
+        text-align: center;
+        width: 375px;
+    }
+}

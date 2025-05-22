@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title>
+
+    <!-- HEADER CSS -->
+    <link rel="stylesheet" href="../css/utils.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/planet.css" />
+    <link rel="stylesheet" href="../css/planet-description.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <nav>
+            <svg class="mobile-menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+            <ul class="nav-links">
+                <li class="link"><a href="index.html">Home</a></li>
+                <li class="link"><a href="planet.html">Planet</a></li>
+                <li class="link"><a href="dwarfplanet.html">Dward-Planet</a></li>
+                <li class="link line-seperator"></li>
+                <svg class="light-mode" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                </svg>
+            </ul>
+        </nav>
+
+        <!-- mobile-nav -->
+        <div class="mobile-nav horizonal-scroll">
+            <nav>
+                <ul class="mobile-links">
+                    <li class="link"><a href="index.html">Home</a></li>
+                    <li class="link"><a href="planet.html">Planet</a></li>
+                    <li class="link"><a href="dwarfplanet.html">Dward-Planet</a></li>
+                    <li class="link line-seperator"></li>
+                    <svg class="light-mode" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                    </svg>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <ul class="planet-tabs">
+            <li class="tablinks" id="default-tab" data-tab="mercury"><a>Mercury</a></li>
+            <li class="tablinks" data-tab="venus"><a>Venus</a></li>
+            <li class="tablinks" data-tab="earth"><a>Earth</a></li>
+            <li class="tablinks" data-tab="mars"><a>Mars</a></li>
+            <li class="tablinks" data-tab="jupiter"><a>Jupiter</a></li>
+            <li class="tablinks" data-tab="saturn"><a>Saturn</a></li>
+            <li class="tablinks" data-tab="uranus"><a>Uranus</a></li>
+            <li class="tablinks" data-tab="neptune"><a>Neptune</a></li>
+        </ul>
+
+        <div id="mercury" class="tabcontent ">
+            <div class="planet">
+                <div class="planet-misc">
+                    <div class="dyk-info-content">
+                        <p class="dyk-info-header">Did You Know?</p>
+                        <p class="dyk-info">Lorem ipsum dolor sit amet <br>
+                            Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <p class="planet-name">MERCURY</p>
+                    <img class="planet-img" src="../Images/mercury.png" alt="mercury image">
+                </div>
+
+                <div class="planet-info">
+                    <div class="planet-info-1">
+                        <div class="planet-info-container">
+                            <p class="planet-info-text"> <span class="numbering">1.</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                magnis disparturient montes, nascetur ridiculus mus. 
+                                <span class="planet-info-text-more"> Donec quam felis, ultricies nec, pellentesque eu,
+                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                                    aliquetnec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                                    vitae, justo. Nullam dictum felis eu pede mollis pretium.</span>
+                                <span class="see-more-btn">Read More</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="planet-info-2">
+                        <div class="planet-info-container">
+                            <p class="planet-info-text"> <span class="numbering">2.</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                magnis disparturient montes, nascetur ridiculus mus.
+                                <span class="planet-info-text-more">Donec quam felis, ultricies nec, pellentesque eu,
+                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                                    aliquetnec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                                    vitae, justo. Nullam dictum felis eu pede mollis pretium.</span>
+                                <span class="see-more-btn">Read more</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="planet-info-3">
+                        <div class="planet-info-container">
+                            <p class="planet-info-text"> <span class="numbering">3.</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                magnis disparturient montes, nascetur ridiculus mus.
+                                <span class="planet-info-text-more">Donec quam felis, ultricies nec, pellentesque eu,
+                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                                    aliquetnec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                                    vitae, justo. Nullam dictum felis eu pede mollis pretium.</span>
+                                <span class="see-more-btn">Read more</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="venus" class="tabcontent ">
+            <div class="planet">
+                <div class="planet-misc">
+                    <div class="dyk-info-content">
+                        <p class="dyk-info-header">Did You Know?</p>
+                        <p class="dyk-info">Lorem ipsum dolor sit amet <br>
+                            Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <p class="planet-name">VENUS</p>
+                    <img class="planet-img" src="../Images/venus.png" alt="venus image">
+                </div>
+
+                <div class="planet-info">
+                    <div class="planet-info-1">
+                        <div class="planet-info-container">
+                            <p class="planet-info-text"> <span class="numbering">1.</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                magnis disparturient montes, nascetur ridiculus mus. 
+                                <span class="planet-info-text-more"> Donec quam felis, ultricies nec, pellentesque eu,
+                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                                    aliquetnec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                                    vitae, justo. Nullam dictum felis eu pede mollis pretium.</span>
+                                <span class="see-more-btn">Read More</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="planet-info-2">
+                        <div class="planet-info-container">
+                            <p class="planet-info-text"> <span class="numbering">2.</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                magnis disparturient montes, nascetur ridiculus mus.
+                                <span class="planet-info-text-more">Donec quam felis, ultricies nec, pellentesque eu,
+                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                                    aliquetnec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                                    vitae, justo. Nullam dictum felis eu pede mollis pretium.</span>
+                                <span class="see-more-btn">Read more</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="planet-info-3">
+                        <div class="planet-info-container">
+                            <p class="planet-info-text"> <span class="numbering">3.</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                magnis disparturient montes, nascetur ridiculus mus.
+                                <span class="planet-info-text-more">Donec quam felis, ultricies nec, pellentesque eu,
+                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                                    aliquetnec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                                    vitae, justo. Nullam dictum felis eu pede mollis pretium.</span>
+                                <span class="see-more-btn">Read more</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="earth" class="tabcontent">
+            <div class="planet">
+                <div class="planet-misc">
+                    <div class="dyk-info-content">
+                        <p class="dyk-info-header">Did You Know?</p>
+                        <p class="dyk-info">Lorem ipsum dolor sit amet <br>
+                            Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <p class="planet-name">EARTH</p>
+                    <img class="planet-img" src="../Images/earth.png" alt="mercury image">
+                </div>
+
+                <div class="planet-info">
+                    <div class="planet-info-1">
+                        <div class="planet-info-container">
+                            <p class="planet-info-text"> <span class="numbering">1.</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                magnis disparturient montes, nascetur ridiculus mus. 
+                                <span class="planet-info-text-more"> Donec quam felis, ultricies nec, pellentesque eu,
+                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                                    aliquetnec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                                    vitae, justo. Nullam dictum felis eu pede mollis pretium.</span>
+                                <span class="see-more-btn">Read More</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="planet-info-2">
+                        <div class="planet-info-container">
+                            <p class="planet-info-text"> <span class="numbering">2.</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                magnis disparturient montes, nascetur ridiculus mus.
+                                <span class="planet-info-text-more">Donec quam felis, ultricies nec, pellentesque eu,
+                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                                    aliquetnec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                                    vitae, justo. Nullam dictum felis eu pede mollis pretium.</span>
+                                <span class="see-more-btn">Read more</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="planet-info-3">
+                        <div class="planet-info-container">
+                            <p class="planet-info-text"> <span class="numbering">3.</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                magnis disparturient montes, nascetur ridiculus mus.
+                                <span class="planet-info-text-more">Donec quam felis, ultricies nec, pellentesque eu,
+                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+                                    aliquetnec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                                    vitae, justo. Nullam dictum felis eu pede mollis pretium.</span>
+                                <span class="see-more-btn">Read more</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="../js/planet-tabs.js"></script>
+    <script src="../js/planet-seemore.js"></script>
+    <script src="../js/planet-mobile-draggable-slidebar.js"></script>
+</body>
+
+</html>

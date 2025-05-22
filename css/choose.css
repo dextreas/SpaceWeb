@@ -1,0 +1,94 @@
+.page-text {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.text-design {
+    color: rgb(255, 255, 255);
+}
+
+.term-seperator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seperator {
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 18em;
+    margin-top: 1rem;
+}
+
+.subtext-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    position: absolute;
+    margin-top: 5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 25px rgb(89, 175, 254);
+}
+
+.planet-sub,
+.dwarf-planet-sub {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planet-img,
+.dwarf-planet-img {
+    width: 15rem;
+}
+
+.planet-description,
+.dwarf-planet-description {
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+.planet-btn,
+.dwarf-planet-btn {
+    margin-top: 1rem;
+    background-color: rgb(255, 71, 71);
+    color: white;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+}
+
+.planet-btn:hover,
+.dwarf-planet-btn:hover {
+    box-shadow: 0 0 25px rgb(255, 145, 145);
+}
+
+@media (min-width: 768px) {
+
+    .page-text {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .term-seperator {
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+
+    .seperator {
+        border: 1px solid rgb(255, 255, 255);
+        padding-top: 25em;
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .planet-btn,
+    .dwarf-planet-btn {
+        margin-bottom: 1rem;
+    }
+
+    .topic-name {
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+}

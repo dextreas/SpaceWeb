@@ -1,0 +1,46 @@
+/* Styling for a container holding tab elements */
+.planet-tabs {
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Arrange tabs horizontally */
+    gap: 2rem; /* Spacing between tabs */
+    align-items: center; /* Vertically center align items */
+    justify-content: flex-start; /* Align items to the start of the container */
+    list-style-type: none; /* Remove bullet points from list */
+    margin-top: 2rem; /* Add space above the tabs */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+/* Hide scrollbar in WebKit browsers */
+.planet-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+/* Styling for the tab links */
+.tablinks > a {
+    color: white; /* Set text color for inactive tabs */
+}
+
+/* Styling for tab links when hovered */
+.tablinks:hover > a {
+    color: rgb(255, 198, 74); /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styling for tab content (initially hidden) */
+.tabcontent {
+    display: none; /* Hide tab content by default */
+}
+
+/* Styling for active tab links */
+.tablinks.active > a {
+    color: rgb(40, 255, 226); /* Change text color for active tab */
+}
+
+@media (min-width: 768px) {
+    .planet-tabs {
+        justify-content: center; /* Align items to the center of the container */
+        overflow-x: none; /* Enable horizontal scrolling */
+        overflow-y: none; /* Hide vertical scrollbar */
+    }
+}

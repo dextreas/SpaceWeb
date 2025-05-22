@@ -1,0 +1,145 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.75rem; /* Added margin for mobile */
+}
+
+.monologue {
+    width: 16rem; /* Reduced width for mobile */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Added justify-content for mobile */
+    margin-top: 1rem; /* Removed margin for mobile */
+}
+
+.monologue>p {
+    font-size: 2em; /* Reduced font size for mobile */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 0 0; /* Adjusted margin for mobile */
+}
+
+.action-text {
+    font-size: 1em;
+}
+
+.explore-btn {
+    display: inline-block;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-top: 1.25rem; /* Adjusted margin for mobile */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.explore-btn:hover {
+    box-shadow: 0 0 140px rgb(196, 156, 252);
+}
+
+@media (min-width: 375px) {
+    .monologue {
+        width: 17rem; /* Adjusted width for larger screens */
+        /* border:1px solid red; */
+    }
+
+    .action-text {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 425px) {
+    .monologue {
+        width: 18rem;
+    }
+
+    .monologue>p {
+        font-size: 2.35em;
+    }
+
+    .action-text {
+        font-size: 1.15em;
+    }
+
+    .explore-btn {
+        width: 12.15rem;
+        height: 12.15rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .homepage {
+        margin-top: 0; /* Reset margin for larger screens */
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .monologue {
+        width: 35rem;
+        margin-left: 2.5rem;
+        margin-top: 3rem;
+    }
+
+    .monologue>p {
+        font-size: 3rem;
+    }
+
+    .action-text {
+        font-size: 1.05rem;
+    }
+
+    .button-action {
+        margin: 12rem 1rem 0 4rem;
+    }
+
+    .explore-btn {
+        width: 17rem;
+        height: 17rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .homepage {
+        margin-top: 0; /* Reset margin for larger screens */
+    }
+
+    .monologue {
+        width: 35rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .monologue>p {
+        font-size: 4.85rem;
+    }
+
+    .action-text {
+        font-size: 1.4rem;
+    }
+
+    .button-action {
+        margin: 12rem 1rem 0 0rem;
+    }
+
+    .explore-btn {
+        width: 18rem;
+        height: 18rem;
+        font-size: 2.5rem;
+    }
+}
